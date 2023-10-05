@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="https://kjfootman.github.io/lib/prismjs/prism.css"> -->
+    <link href="/lib/prismjs/prism.css" rel="stylesheet"">
     <title>Lecture 01</title>
 </head>
 <body>
@@ -31,14 +33,15 @@
                 변수 선언은 아래 예제1과 같이 let [변수 명]: [자료형] = [값]; 형식으로 합니다. 
                 예제1의 2행 처럼 자료형을 명시하지 않아도 러스트 컴파일러에서 할당된 값을 보고 유추하기 때문에 컴파일 오류가 발생하지 않습니다.
                 이 때 주의할 점은 한 줄이 끝나면 반드시 세미콜론(;)을 붙여줘야 한다는 것 입니다.</p>
-            <pre><code>
-let a: i32 = 5;
-let b = 3;
-            </code></pre>
+            <pre class="line-numbers"><code class="language-rust">let a: i32 = 5;
+let b = 3;</code></pre>
+            <!-- <pre data-src="../res/rs/hello_world/src/main.rs" class="line-numbers"><code class="language-rust"></code></pre> -->
         </article>
         <article>
             <h1 id="print_var">변수 출력 하기</h1>
         </article>
     </section>
+
+    <script src="/lib/prismjs/prism.js"></script>
 </body>
 </html>
